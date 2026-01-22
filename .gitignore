@@ -1,0 +1,24 @@
+# Logs
+*.log
+
+# Env files (we commit env.example instead)
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Node / TS build artifacts
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Nest cache
+.nestjs/
+
+# Prisma
+apps/backend/prisma/dev.db
+apps/backend/prisma/dev.db-journal
