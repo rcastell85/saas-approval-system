@@ -1,12 +1,7 @@
 # saas-approval-system
 
-<<<<<<< HEAD
-Sistema backend para gestionar flujos de aprobación configurables
-(encendido/apagado), orientado a productos tipo SaaS.
-=======
 Backend (MVP) para marketplace B2B con approvals opcionales:
 Proveedor publica → Comprador solicita cotización → Proveedor responde → Aceptación → Pedido.
->>>>>>> bec0bfe (chore: bootstrap backend MVP)
 
 ## Features (MVP)
 - Gestión de usuarios
@@ -20,8 +15,6 @@ Proveedor publica → Comprador solicita cotización → Proveedor responde → 
 - DB: PostgreSQL
 - Auth: JWT
 - Docker
-<<<<<<< HEAD
-=======
 
 ## Run (backend only, Docker)
 1. Copiá `env.example` a `.env` (manual) y ajustá valores si querés.
@@ -45,4 +38,3 @@ curl http://localhost:3000/health
 ### Feature flag
 - `AUTH_ALLOW_PROVIDER_SELECTION=true|false`
   - si es `false`, el registro **bloquea** `PROVIDER` (BUYER siempre permitido)
->>>>>>> bec0bfe (chore: bootstrap backend MVP)
