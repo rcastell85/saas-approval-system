@@ -1,0 +1,22 @@
+.git
+.gitignore
+
+# Env files
+.env
+.env.*
+env
+
+# Node / TS artifacts (monorepo-friendly)
+**/node_modules
+**/dist
+**/coverage
+**/*.tsbuildinfo
+
+# Logs
+**/*.log
+npm-debug.log*
+
+# Editor/OS
+.DS_Store
+.idea
+.vscode
